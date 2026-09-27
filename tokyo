@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tokyo Private Tours | Mesut Dereli</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Tokyo Private Tours</h1>
+    <p>Discover Tokyo with a private guide</p>
+  </header>
+
+  <main>
+    <h2>Explore Tokyo</h2>
+
+    <p>
+      Discover Tokyo's history, culture, temples, shrines and modern neighborhoods
+      with a personalized private tour.
+    </p>
+
+    <h2>Private Tour</h2>
+
+    <p>
+      Tours can be customized according to your interests, schedule and travel style.
+    </p>
+
+    <h2>Contact</h2>
+
+    <p>Contact me for tour information and reservations.</p>
+  </main>
+
+</body>
+</html>
+
