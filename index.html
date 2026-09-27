@@ -1,1 +1,252 @@
 # Tokyo-tours
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tokyo Private Tours | Mesut Dereli</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #222;
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h2 {
+      font-size: 22px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      min-height: 600px;
+      background:
+        linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.55)),
+        url("images/tokyo.jpg") center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 30px;
+    }
+
+    .hero h1 {
+      font-size: 55px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #fff;
+      color: #111;
+      padding: 13px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 35px;
+    }
+
+    .tours {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .card {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 3px 15px rgba(0,0,0,.15);
+      background: white;
+    }
+
+    .card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 23px;
+    }
+
+    .about {
+      background: #f4f4f4;
+      text-align: center;
+    }
+
+    .about p {
+      max-width: 750px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 800px) {
+      .tours {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>Tokyo Private Tours</h2>
+
+  <nav>
+    <a href="#tours">Tours</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Discover Tokyo</h1>
+    <p>Private cultural tours with a professional guide</p>
+    <a class="button" href="#tours">Explore Tours</a>
+  </div>
+</section>
+
+<section id="tours">
+  <h2>Private Tours in Tokyo</h2>
+
+  <div class="tours">
+
+    <div class="card">
+      <img src="images/asakusa.jpg" alt="Asakusa Tokyo">
+
+      <div class="card-content">
+        <h3>Historic Tokyo</h3>
+        <p>
+          Discover Asakusa, Senso-ji Temple and the historic
+          neighborhoods of Tokyo.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/shibuya.jpg" alt="Shibuya Tokyo">
+
+      <div class="card-content">
+        <h3>Modern Tokyo</h3>
+        <p>
+          Explore Meiji Shrine, Harajuku, Shibuya and the energy
+          of modern Tokyo.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/fuji.jpg" alt="Mount Fuji">
+
+      <div class="card-content">
+        <h3>Mount Fuji Experience</h3>
+        <p>
+          Experience one of Japan's most iconic landscapes on
+          a personalized day tour.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2>Your Private Guide</h2>
+
+  <p>
+    Discover Japan through its history, culture and everyday life.
+    Tours are designed for travelers looking for a personal and
+    flexible experience in Tokyo.
+  </p>
+
+  <br>
+
+  <p>
+    Tours available in English, Spanish and Turkish.
+  </p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Plan Your Tokyo Tour</h2>
+
+  <p>
+    Contact me to create a private Tokyo itinerary based on your
+    interests and travel schedule.
+  </p>
+
+  <br>
+
+  <a class="button" href="mailto:YOUR-EMAIL-HERE">
+    Contact for a Private Tour
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Tokyo Private Tours — Mesut Dereli</p>
+</footer>
+
+</body>
+</html>
